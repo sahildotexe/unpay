@@ -119,7 +119,7 @@ const UserTransactions: React.FC<Props> = ({ smartAccount, provider }) => {
     //   defaultCryptoCurrency: "USDT",
     // });
     // transak.init();
-    if (spareAmount + 101 < 101) {
+    if (spareAmount < 101) {
       toast({
         description: "spare amount should be greater than 100",
         status: "error",
@@ -134,7 +134,7 @@ const UserTransactions: React.FC<Props> = ({ smartAccount, provider }) => {
       flowType: 1, // 1 -> onramp || 2 -> offramp || 3 -> Merchant checkout
       fiatType: 1, // 1 -> INR || 2 -> TRY || 3 -> AED || 4 -> MXN || 5-> VND || 6 -> NGN
       paymentMethod: 1, // 1 -> Instant transafer(UPI) || 2 -> Bank transfer(IMPS/FAST)
-      fiatAmount: spareAmount + 101, // replace with the amount you want to buy
+      fiatAmount: spareAmount, // replace with the amount you want to buy
     });
 
     onrampInstance.show();
