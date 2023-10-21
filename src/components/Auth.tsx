@@ -181,7 +181,7 @@ export default function Home() {
               </Center>
               <Center>
                 <Text width={{base:"auto",md:"60vw" }} align='justify' fontSize='xl' m='2' my='2' p={{base: '2', md: '6'}} >
-                introducing the easiest way to buy your first crypto. Unpay allows you to buy crypto with your spare change.
+                let me help you with your spare change daddy
                 </Text>
               </Center>
               </Box>
