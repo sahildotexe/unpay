@@ -180,7 +180,7 @@ export default function Home() {
               <Heading size='xl' m='8'>buy crypto with spare change</Heading>
               </Center>
               <Center>
-                <Text width={{base:"auto",md:"60vw" }} align='justify' fontSize='xl' m='2' my='2' p={{base: '2', md: '6'}} >
+                <Text align='justify' fontSize='xl' m='2' my='2' p={{base: '2', md: '6'}} >
                 let me help you with your spare change daddy
                 </Text>
               </Center>
