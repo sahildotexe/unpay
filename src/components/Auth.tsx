@@ -41,11 +41,11 @@ export default function Home() {
   async function login() {
     if (!sdkRef.current) {
       const socialLoginSDK = new SocialLogin()
-      const signature1 = await socialLoginSDK.whitelistUrl('https://immortal-docs.vercel.app')
+      const signature1 = await socialLoginSDK.whitelistUrl('https://unpay.vercel.app/')
       await socialLoginSDK.init({
         chainId: ethers.utils.hexValue(ChainId.POLYGON_MUMBAI),
         whitelistUrls: {
-          'https://immortal-docs.vercel.app': signature1,
+          'https://unpay.vercel.app/': signature1,
         }
       })
       sdkRef.current = socialLoginSDK
