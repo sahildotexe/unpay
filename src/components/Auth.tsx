@@ -8,7 +8,7 @@ import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, CardHeader, Cente
 import { AddIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon } from '@chakra-ui/icons'
 import Image from 'next/image'
 import mockup from "../../public/mockup.png"
-import piggy from "../../public/piggy.jpeg"
+import piggy from "../../public/cat.png"
 
 export default function Home() {
   const [smartAccount, setSmartAccount] = useState<SmartAccount | null>(null)
